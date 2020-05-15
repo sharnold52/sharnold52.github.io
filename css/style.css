@@ -1,0 +1,120 @@
+/*Nav Bar*/
+.fullHeight {
+    height: 100% !important;
+}
+.fullNav {
+    width: 100% !important;
+}
+
+.navText {
+    font-size: 1.5em;
+}
+
+.navButton {
+    width: 100px;
+    text-align: center;
+}
+
+/*Content*/
+.paraIntro{
+    font-size: larger;
+}
+
+.padding {
+    padding-top: 5px;
+}
+
+.padding2 {
+    padding-top: 10px;
+}
+
+.paddingLeft{
+   margin-left: 40px;
+}
+
+.vidHeight {
+    height: auto !important;
+    width: 400px !important;
+    background-color: black;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.vidBorder {
+    margin: 5px !important;
+}
+
+.title {
+    font-family: 'Press Start 2P', cursive;
+}
+
+.subTitle {
+    font-family: 'Shrikhand', cursive;
+}
+
+.entry {
+    font-family: 'Changa One', cursive;
+}
+
+p {
+    font-family: 'Francois One', sans-serif;
+    font-size: larger
+}
+
+li {
+    font-family: 'Francois One', sans-serif;
+    font-size: larger;
+    line-height: 3em;
+}
+
+.entryList{
+    font-family: 'Francois One', sans-serif;
+    font-size: larger;
+    list-style-type: circle !important;
+    text-align: left;
+    margin: 10px;
+}
+
+.largeFont {
+    font-size: 25px;
+    margin: 0;
+}
+
+.social {
+    padding-left:4px;
+    padding-right: 4px;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+/*LINK*/
+.link:link {
+    color: #311b92;
+}
+
+.link:visited {
+    color: #512da8 ;
+}
+
+.link:hover {
+    color: #ea80fc;
+}
+
+.link:active {
+    color: #1a237e;
+}
+
+@media only screen and (max-width: 600px) {
+    .vidHeight {
+        height: auto !important;
+        width: auto !important;
+        background-color: black;
+        border-bottom-left-radius: 15px;
+        border-bottom-right-radius: 15px;
+        border-top-left-radius: 5px;
+        border-top-right-radius: 5px;
+    }
+}
