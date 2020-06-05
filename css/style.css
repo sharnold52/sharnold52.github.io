@@ -12,9 +12,41 @@
     align-items: center;
 }
 
+.nav-color {
+    background-color: #231651;
+}
+
+.body-color {
+    background-color: #D7FDF0;
+}
+
+.item-color {
+    background-color: #02020A !important;
+}
+
+.footer-color {
+    background-color: #324A5F !important;
+}
+
+.footer-end {
+    background-color: #231651 !important;
+}
+
 .navButton {
     width: 100px;
     text-align: center;
+}
+
+.indicator-item {
+    background-color: #75B9BE !important;
+}
+
+.indicator-item.active{
+    background-color: #000 !important;
+}
+
+.indicators {
+    bottom: -20px !important;
 }
 
 /*Content*/
