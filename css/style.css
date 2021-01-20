@@ -32,6 +32,10 @@
     background-color: #231651 !important;
 }
 
+.side-nav li .white-social {
+    color: #fff !important;
+}
+
 .navButton {
     width: 100px;
     text-align: center;
@@ -152,7 +156,7 @@ li {
         border-top-right-radius: 5px;
     }
 
-    .carousel. {
+    .carousel {
         top: 0;
         left: 0;
         height: 0;
