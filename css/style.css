@@ -177,6 +177,7 @@ li {
     .carousel .carousel-item {
         width: 100%;
         height: 100%;
+        transform: translateX(0px);
         min-height: 400px;
         position: absolute;
         top: 0;
