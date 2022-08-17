@@ -191,19 +191,19 @@ a {
 }
 
 .link:link {
-    color: #EEFF00;
+    color: #311b92;
 }
 
 .link:visited {
-    color: #EEFF00;
+    color: #512da8 ;
 }
 
 .link:hover {
-    color: #EEFF00;
+    color: #ea80fc;
 }
 
 .link:active {
-    color: #EEFF00;
+    color: #1a237e;
 }
 
 @media only screen and (max-width: 992px) {
