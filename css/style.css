@@ -213,6 +213,10 @@ a {
 }
 
 @media only screen and (max-width: 600px) {
+    .subTitle { 
+        font-size: 2.5rem;
+    }
+
     .vidHeight {
         height: auto !important;
         width: auto !important;
