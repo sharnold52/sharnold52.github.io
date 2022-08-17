@@ -2,18 +2,15 @@
 <html lang="en">
     <head>
 
-        <!-- Basic Page Needs
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- Basic Page Needs -->
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1"/>
         <title>Sean Arnold | Game Designer</title>
 
-        <!-- Mobile Specific Metas
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- Mobile Specific Metas -->
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <!-- FONT
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- FONT -->
         <link rel="stylesheet" type ="text/css" href="fonts/font-awesome/css/font-awesome.min.css">
         <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css?family=Shrikhand" rel="stylesheet">
@@ -28,23 +25,22 @@
 
 
 
-        <!-- CSS
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- CSS -->
         <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen" />
         <link href="css/style.css" type="text/css" rel="stylesheet" media="screen" />
 
-        <!-- Favicon
-–––––––––––––––––––––––––––––––––––––––––––––––––– -->
+        <!-- Favicon -->
         <link rel="icon" type="image/png" href="images/logo.png">
 
 
     </head>
     <body class="body-color">
         <!-- -------------TITLE------------- -->
-
-        <nav class="nav-color fullNav">
+        <nav class="teal fullNav">
             <div class="nav-wrapper fullHeight">
-                <a style="margin: 5px"id="logo-container" href="#" class="brand-logo"><img class="responsive-image" src="images/logo.png" alt="logo"></a>
+                <div class="logoCenterer">
+                    <a id="logo-container" href="#" class="brand-logo logo"><img class="responsive-image" src="images/logoBig.png" alt="logo"></a>
+                </div>
 
                 <!-- Navigation Bar -->
                 <ul style="float: right" class="hide-on-med-and-down white-text fullHeight">
@@ -56,7 +52,7 @@
                 </ul>
 
                 <!-- Mobile Navigation Bar -->
-                <ul id="nav-mobile" class="side-nav nav-color">
+                <ul id="nav-mobile" class="side-nav teal">
                     <li><a href="#Projects"class="white-text navText">Projects</a></li>
                     <li><a href="#Levels" class="white-text navText">Level Design</a></li>
                     <li><a href="#Design" class="white-text navText">Art</a></li>
@@ -71,7 +67,6 @@
         <div id="index-banner" class="parallax-container">
             <div class="section no-pad-bot">
                 <div class="container">
-                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br class="hide-on-small-only"><br class="hide-on-small-only">
                     <h1 class="header center white-text text-lighten-2 title">Sean Arnold</h1>
                 </div>
             </div>
@@ -112,48 +107,83 @@
         <!-- -------------Videos--------------- -->
         <br>
         <h1 class="center subTitle" id="Projects">Projects</h1>
+
+        <!-- Vid Carousel -->
         <div class="container center row">
-            <!-- Vid Carousel Normal -->
-            <div class="carousel center" style="height: 490px" data-indicators="true">
+            <div class="carousel carousel-slider center" data-indicators="true">
                 <!-- Entry 1 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <a width="560" height="315" href="https://sharnold52.itch.io/the-peresmeshnik" target="_blank"><img src="images/narrativeVisual.PNG"/></a>
+                <div class="carousel-item teal darken-2 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png"/>
+                    <div class="vidContainer">
+                        <div class="video-container">
+                        <a width="560" height="315" href="https://sharnold52.itch.io/the-peresmeshnik" target="_blank">
+                            <img src="images/narrativeVisual.PNG" />
+                        </a>
+                        </div>
                     </div>
-                    <p class="entryList">
-                        <i>"I was really struck at how engaged I was with the story… I had a lot of fun"</i> - Jason Taylor, Evidence of Design, WXIR 100.9 FM
-                        <br>
-                        <br>
-                        This game was discussed on a local radio show and was designed, programmed, and composed by me. View the full show <a href="https://sharnold52.itch.io/the-peresmeshnik">here</a>. Or play the game <a href="https://sharnold52.itch.io/the-peresmeshnik" target="_blank">here</a>.
+                    <p class="vidCaption">
+                        <i>"I was really struck at how engaged I was with the story… I had a lot of fun"</i> - Jason
+                        Taylor, Evidence of Design, WXIR 100.9 FM. 
+                        This game was made using Twine. View the full radio show <a href="https://youtu.be/mwgJVIIOafY" target="_blank">here</a>. Or play the
+                        game <a href="https://sharnold52.itch.io/the-peresmeshnik" target="_blank">here</a>.
                     </p>
                 </div>
+
                 <!-- Entry 2 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/lTKZPvRbj94" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-3 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/lTKZPvRbj94" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">Programmed a web game using the Pixi.js library. Inspired by the flash game, "loneliness", created by Jordan Magnuson. The idea was to experiment with the idea of using mechanics as metaphor. The full game can be played <a href="https://sharnold52.github.io/OldWebProjects/project1/project.html" target="_blank">here</a>.</p>
+                    <p class="vidCaption">
+                        Programmed a web game using the Pixi.js library. Inspired by the flash game, "loneliness", created by Jordan Magnuson.
+                        The idea was to experiment with the idea of using mechanics as metaphor. The full game can be played
+                        <a href="https://sharnold52.github.io/OldWebProjects/project1/project.html" target="_blank">here</a>.
+                    </p>
                 </div>
+
                 <!-- Entry 3 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mN7ehaxPGC0" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-1 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mN7ehaxPGC0" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">A project built using Unreal Engine 4. The main goal was to learn optimization techniques for games such as LODs. Read more about this in the description of the YouTube Video!</p>
+                    <p class="vidCaption">A project built using Unreal Engine 4. The main goal was to learn optimization
+                        techniques for games such as LODs. Blueprints were also utilized for small interactions. Read
+                        more about this in the description of the YouTube Video!
+                    </p>
                 </div>
+
                 <!-- Entry 4 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <a width="560" height="315" href="https://sharnold52.github.io/Asteroids-Clone/" target="_blank"><img src="images/asteroids.JPG"/></a>
+                <div class="carousel-item teal darken-3 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <a width="560" height="315" href="https://sharnold52.github.io/Asteroids-Clone/" target="_blank"><img src="images/asteroids.JPG" /></a>
+                        </div>
                     </div>
-                    <p class="entryList">Clone of the classic arcade game, Asteroids, created using Unity 2D. To make this game, I used vectors to calculate the velocity of various objects and programmed my own custom collision system using bounding circles. Play it <a href="https://sharnold52.github.io/Asteroids-Clone/" target="_blank">here</a>.</p>
+                    <p class="vidCaption">Clone of the classic arcade game, Asteroids, created using Unity 2D. To make
+                        this game, I used vectors to calculate the velocity of various objects and programmed my own
+                        custom collision system using bounding circles. Play it <a href="https://sharnold52.github.io/Asteroids-Clone/" target="_blank">here</a>.
+                    </p>
                 </div>
+
                 <!-- Entry 5 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/H0NrSJoZuks" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-1 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/H0NrSJoZuks" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">This is a recreation of Connect four that I made only using the DOM. The game was made using JavaScript, HTML, and CSS. The full game can be played <a href="https://sharnold52.github.io/OldWebProjects/project2/index.html" target="_blank">here</a>.</p>
+                    <p class="vidCaption">This is a recreation of Connect four that I made only using the DOM. The goal
+                        of this project was to make a game using only vanilla JavaScript, HTML, and CSS. Everything was
+                        coded from scratch by me. The full game can be played  <a href="https://sharnold52.github.io/OldWebProjects/project2/index.html" target="_blank">here</a>!
+                    </p>
                 </div>
             </div>
         </div>
@@ -169,37 +199,66 @@
         <!-- -------------Level Design Videos--------------- -->
         <br>
         <h1 class="center subTitle" id="Levels">Level Design</h1>
+        <!-- Vid Carousel -->
         <div class="container center row">
-            <!-- Vid Carousel Normal -->
-            <div class="carousel center" style="height: 490px" data-indicators="true">
+            <div class="carousel carousel-slider center" data-indicators="true">
                 <!-- Entry 1 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/mN7ehaxPGC0" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-2 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/mN7ehaxPGC0" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">A level that was made for a Technical Art class using Unreal Engine 4. Designed mostly to demonstrate my ability to create with UE4 and show off
-                        my knowledge of Blueprints. There are scripted events that are triggered by the player like flickering lights and animals running away.</p>
+                    <p class="vidCaption">
+                        A level that was made for a Technical Art class using Unreal Engine 4. Designed mostly to demonstrate my ability to create with UE4
+                         and show off my knowledge of Blueprints. The level features scripted environmental interactions.
+                    </p>
                 </div>
+
                 <!-- Entry 2 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/jx9CnkuFgUI" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-3 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/jx9CnkuFgUI" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">A level that was made for Portal 2 using the in-game editor to establish the base. File was then exported to the Hammer editor for fine-tuning adjustments. The level can be found on the steam workshop at this <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1738741485">link</a>.</p>
+                    <p class="vidCaption">
+                        This is a level that was made for Portal 2 using the in-game editor to establish the base. File was then
+                        exported to the Hammer editor for fine-tuning adjustments. You can find and play the level on the steam
+                        workshop at this <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1738741485" target="_blank">link</a>.
+                    </p>
                 </div>
+
                 <!-- Entry 3 -->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/pBtuTHKKupg" allowfullscreen></iframe>
+                <div class="carousel-item teal darken-1 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/pBtuTHKKupg" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">A King of the Hill map made for Team Fortress 2 using the Hammer editor.</p>
+                    <p class="vidCaption">
+                        A King of the Hill map made for Team Fortress 2 using Valve's Hammer editor. I drew the map in a notepad first 
+                        and then greyboxed it in the Hammer editor. The final product that you see now was created after testing on the
+                        greyboxed map was completed.
+                    </p>
                 </div>
-                <!-- Entry 4-->
-                <div class="carousel-item vidHeight white-text item-color">
-                    <div class="video-container vidBorder">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/sctw7JMoPdk" allowfullscreen></iframe>
+
+                <!-- Entry 4 -->
+                <div class="carousel-item teal darken-3 white-text carouselHeight">
+                    <img class="heightSetter" src="images/fullTransparent.png" />
+                    <div class="vidContainer">
+                        <div class="video-container vidBorder">
+                            <iframe width="560" height="315" src="https://www.youtube.com/embed/sctw7JMoPdk" allowfullscreen></iframe>
+                        </div>
                     </div>
-                    <p class="entryList">This level was made for the game, "Deadbolt", using the level editor that was provided by the developers. The level can be found on the steam workshop at this <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1670297989">link</a>.</p>
+                    <p class="vidCaption">
+                        This level was made for the game, "Deadbolt", using the level editor that was
+                        provided by the developers. The level was first drawn/planned in a sketchbook. The level can be found on 
+                        the steam workshop at this <a href="https://steamcommunity.com/sharedfiles/filedetails/?id=1670297989" target="_blank">link</a>.
+                    </p>
                 </div>
             </div>
         </div>
@@ -229,7 +288,7 @@
                     <a class="black" data-fancybox="group" href="images/samurai.png" data-caption="A samurai standing in the moonlight. Made using Aseprite"><img src="images/samurai.png"  alt="A Samurai"></a>
                 </div>
                 <div class="carousel-item light-blue white-text">
-                    <a class="light-blue" data-fancybox="group" href="images/cuteCreature.png" data-caption="A strangely cute creature... Made using Aseprite"><img src="images/cuteCreature.png" alt="A Cute... Thing"></a>
+                    <a class="light-blue" data-fancybox="group" href="images/InnerDemonsPortfolio.png" data-caption="A man and his inner demons. Made using Aseprite"><img src="images/InnerDemonsPortfolio.png" alt="InnerDemons"></a>
                 </div>
                 <div class="carousel-item black white-text">
                     <a class="black" data-fancybox="group" href="images/deathKnocks.png" data-caption="Design made using Aseprite for Redbubble.com"><img src="images/deathKnocks.png" alt="The Reaper"></a>
@@ -275,7 +334,7 @@
             <!-- COPYRIGHT -->
             <div class="footer-copyright footer-end">
                 <div class="container">
-                    <p>&copy; 2020 Sean Arnold. All Rights Reserved. 			Sources: Made Using Materialize, FancyBox, and FontAwesome</p>
+                    <p>&copy; 2023 Sean Arnold. All Rights Reserved. 			Sources: Made Using Materialize, FancyBox, and FontAwesome</p>
                 </div>
             </div>
         </footer>
@@ -288,11 +347,12 @@
         <script src="js/jquery.fancybox.min.js"></script>
 
         <!-- Script Initialization -->
-        <script type="text/javascript">
+        <script type="text/javascript">            
             // carousel
             $(document).ready(function(){
                 $('.carousel.carousel-slider').carousel({fullWidth: true});
             });
+
             $(document).ready(function(){
                 $('.carousel').carousel();
             });
@@ -305,9 +365,10 @@
             // nav-bar stuff MUST BE LAST
             (function($){		
                 $(function(){
-                    $('.button-collapse').sideNav();
+                    $('.sidenav').sidenav();
                 }); // end of document ready
             })(jQuery); // end of jQuery name space
+
         </script>
         <!-- End Document
 –––––––––––––––––––––––––––––––––––––––––––––––––– -->

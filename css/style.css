@@ -1,4 +1,17 @@
 /*Nav Bar*/
+.logoCenterer {
+    display: flex;
+    float: left;
+    width: 90px;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 48px;
+}
+
 .fullHeight {
     height: 100% !important;
 }
@@ -84,12 +97,51 @@
     margin: 5px !important;
 }
 
+.contentContainer {
+    height: 100%;
+}
+
+.vidContainer {
+    width: 80%;
+    margin: 30px auto 15px auto;
+}
+
+.vidCaption {
+    width: 80%;
+    margin: auto auto 60px auto;
+    padding: 0px;
+}
+
+.container .carousel .carouselHeight {
+    height: auto;
+    overflow: visible;
+}
+
+.heightSetter {
+    z-index: -1;
+    height: 100%;
+    min-height: 400px;
+    width: 0px !important;
+    position: fixed;
+    left: 0px;
+    top: 0px;
+}
+
+.carousel .indicators .indicator-item {
+    height: 16px;
+    width: 16px;
+}
+
 .title {
     font-family: 'Press Start 2P', cursive;
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    left: 0px;
 }
 
 .subTitle {
-    font-family: 'Shrikhand', cursive;
+    font-family: 'Press Start 2P', cursive;
 }
 
 .entry {
@@ -120,6 +172,10 @@ li {
     margin: 0;
 }
 
+.carousel.carousel-slider .carousel-item p {
+    font-size: 18px;
+}
+
 .social {
     padding-left:4px;
     padding-right: 4px;
@@ -129,20 +185,31 @@ li {
 }
 
 /*LINK*/
+a {
+    color: #EEFF00;
+    z-index: 9999999;
+}
+
 .link:link {
-    color: #311b92;
+    color: #EEFF00;
 }
 
 .link:visited {
-    color: #512da8 ;
+    color: #EEFF00;
 }
 
 .link:hover {
-    color: #ea80fc;
+    color: #EEFF00;
 }
 
 .link:active {
-    color: #1a237e;
+    color: #EEFF00;
+}
+
+@media only screen and (max-width: 992px) {
+    .logoCenterer {
+        width: 0px;
+    }
 }
 
 @media only screen and (max-width: 600px) {
@@ -191,6 +258,6 @@ li {
     }
 
     .carousel .carousel-item p {
-        font-size: 15px;
+        font-size: 18px;
     }
 }
