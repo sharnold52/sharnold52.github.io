@@ -10,6 +10,7 @@
 
 .logo {
     height: 48px;
+    z-index: 20;
 }
 
 .fullHeight {
@@ -47,6 +48,10 @@
 
 .side-nav li .white-social {
     color: #fff !important;
+}
+
+.side-nav {
+    z-index: 9999;
 }
 
 .navButton {
